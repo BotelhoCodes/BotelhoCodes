@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/banner.svg" width="1080" alt="Matheus Botelho, Mid-Level Full-Stack Developer and Data Analyst">
+  <img src="assets/banner.svg?v=en" width="1080" alt="Matheus Botelho, Mid-Level Full-Stack Developer and Data Analyst">
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/linkedin-card.svg" width="31.5%" alt="Matheus Botelho on LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/linkedin-card.svg?v=en" width="31.5%" alt="Matheus Botelho on LinkedIn"></a>
   <a href="https://www.instagram.com/matheusbotelho.eng/"><img src="assets/instagram-card.svg" width="31.5%" alt="Matheus Botelho on Instagram"></a>
-  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/github-card.svg" width="31.5%" alt="BotelhoCodes repositories on GitHub"></a>
+  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/github-card.svg?v=en" width="31.5%" alt="BotelhoCodes repositories on GitHub"></a>
 </p>
 
 ---
