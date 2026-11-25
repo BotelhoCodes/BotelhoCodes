@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="88" viewBox="0 0 402 88" role="img" aria-label="GitHub">
+  <rect x="1" y="1" width="400" height="86" rx="13" fill="#11192b" stroke="#384968"/>
+  <path d="M15 20v48" stroke="#bd9aff" stroke-width="2" stroke-linecap="round"/>
+  <rect x="28" y="18" width="52" height="52" rx="11" fill="#1a2840" stroke="#405571"/>
+  <path d="M45 32h21a2 2 0 0 1 2 2v22H45a5 5 0 0 1-5-5V37a5 5 0 0 1 5-5zm1 0v24m6-15h10m-10 6h7" fill="none" stroke="#bd9aff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="97" y="39" fill="#eef3ff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">GitHub</text>
+  <text x="97" y="62" fill="#bd9aff" font-family="Consolas, monospace" font-size="16">@BotelhoCodes</text>
+  <path d="M368 48l10-10m-8 0h8v8" fill="none" stroke="#a7b5d5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
