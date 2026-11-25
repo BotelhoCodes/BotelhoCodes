@@ -1,39 +1,40 @@
 <p align="center">
-  <img src="assets/banner.svg" width="1080" alt="Matheus Botelho, Desenvolvedor Full Stack Pleno e Analista de Dados">
+  <img src="assets/banner.svg" width="1080" alt="Matheus Botelho, Mid-Level Full-Stack Developer and Data Analyst">
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/linkedin-card.svg" width="47%" alt="LinkedIn de Matheus Botelho"></a>
-  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/github-card.svg" width="47%" alt="Repositórios de BotelhoCodes no GitHub"></a>
+  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/linkedin-card.svg" width="31.5%" alt="Matheus Botelho on LinkedIn"></a>
+  <a href="https://www.instagram.com/matheusbotelho.eng/"><img src="assets/instagram-card.svg" width="31.5%" alt="Matheus Botelho on Instagram"></a>
+  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/github-card.svg" width="31.5%" alt="BotelhoCodes repositories on GitHub"></a>
 </p>
 
 ---
 
-## Sobre mim
+## About Me
 
-Sou de Vitória da Conquista, BA, e atuo no desenvolvimento full stack e na análise de dados. Combino essas duas frentes para conectar sistemas, automatizar processos e facilitar o uso dos dados no dia a dia.
+I'm a mid-level full-stack developer and data analyst based in Vitória da Conquista, Brazil. I build web applications, connect business systems, and automate workflows that help teams put their data to use.
 
-## O que eu faço
+## What I Do
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong>Desenvolvimento full stack</strong><br>
-      Desenvolvimento de aplicações web e da lógica que conecta as interfaces aos serviços.
+      <strong>Full-Stack Development</strong><br>
+      Build web applications and connect their interfaces to backend services.
     </td>
     <td width="50%" valign="top">
-      <strong>APIs e integrações</strong><br>
-      Desenvolvimento de APIs e troca de informações entre sistemas com TypeScript, Node.js e NestJS.
+      <strong>APIs and Integrations</strong><br>
+      Build and document APIs and connect systems such as ERP and CRM platforms.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <strong>Análise de dados</strong><br>
-      Consultas e análise com SQL, PostgreSQL e Python.
+      <strong>Data and Business Intelligence</strong><br>
+      Query data, build dashboards, and turn business metrics into reports teams can use.
     </td>
     <td width="50%" valign="top">
-      <strong>Automação de processos</strong><br>
-      Uso de scripts, APIs e dados para reduzir tarefas manuais recorrentes.
+      <strong>Process Automation</strong><br>
+      Use scripts, APIs, and browser automation to reduce recurring manual work.
     </td>
   </tr>
 </table>
@@ -44,27 +45,71 @@ Sou de Vitória da Conquista, BA, e atuo no desenvolvimento full stack e na aná
 
 <table align="center">
   <tr>
-    <td align="center" width="310">
-      <strong>Backend e APIs</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs&amp;theme=dark" height="48" alt="TypeScript, Node.js e NestJS"><br><br>
-      <sub>TypeScript · Node.js · NestJS</sub>
+    <td align="center" valign="top" width="310">
+      <strong>Data &amp; Business Intelligence</strong><br><br>
+      <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_powerbi.svg" alt="Power BI" height="36">
+      <img src="assets/looker-studio-icon.svg" alt="Looker Studio" height="40">
+      <img src="https://skillicons.dev/icons?i=grafana&amp;theme=dark" alt="Grafana" height="40">
+      <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_excel.svg" alt="Microsoft Excel" height="36">
+      <br>
+      <img src="https://skillicons.dev/icons?i=py&amp;theme=dark" alt="Python" height="40">
+      <img src="assets/sql-icon.svg" alt="SQL" height="40">
+      <img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" alt="PostgreSQL" height="40"><br><br>
+      <sub>Power BI · Looker Studio · Grafana · Microsoft Excel · Python · SQL · PostgreSQL</sub>
     </td>
-    <td align="center" width="310">
-      <strong>Dados e automação</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=py&amp;theme=dark" width="48" height="48" alt="Python">
-      <img src="assets/sql-icon.svg" width="48" height="48" alt="SQL">
-      <img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" width="48" height="48" alt="PostgreSQL"><br><br>
-      <sub>Python · SQL · PostgreSQL</sub>
+    <td align="center" valign="top" width="310">
+      <strong>Frontend &amp; Web</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=nextjs,ts,js,html,css&amp;theme=dark" alt="Next.js, TypeScript, JavaScript, HTML and CSS" height="40"><br><br>
+      <sub>Next.js · TypeScript · JavaScript · HTML · CSS</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="310">
+      <strong>Backend &amp; APIs</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=nestjs,nodejs,supabase&amp;theme=dark" alt="NestJS, Node.js and Supabase" height="40">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/insomnia/insomnia-original.svg" alt="Insomnia" height="36">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/swagger/swagger-original.svg" alt="Swagger" height="36"><br><br>
+      <sub>NestJS · Node.js · Supabase · Insomnia · Swagger · APIs</sub>
+    </td>
+    <td align="center" valign="top" width="310">
+      <strong>Infrastructure &amp; Deployment</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=docker,vercel,github&amp;theme=dark" alt="Docker, Vercel and GitHub" height="40">
+      <img src="assets/vps-icon.svg" alt="Virtual private servers" height="40"><br><br>
+      <sub>Docker · Vercel · GitHub · VPS hosting</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="310">
+      <strong>Testing &amp; Browser Automation</strong><br><br>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/playwright/playwright-original.svg" alt="Playwright" height="36">
+      <img src="https://skillicons.dev/icons?i=selenium&amp;theme=dark" alt="Selenium" height="40"><br><br>
+      <sub>Playwright · Selenium</sub>
+    </td>
+    <td align="center" valign="top" width="310">
+      <strong>AI &amp; Coding Tools</strong><br><br>
+      <img src="https://cdn.simpleicons.org/claude/E19478" alt="Claude and Claude Code" height="36">
+      <img src="https://cdn.simpleicons.org/openai/83EADC" alt="OpenAI and Codex" height="36"><br><br>
+      <sub>Claude · Claude Code · OpenAI · Codex</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="310">
+      <strong>Business Systems &amp; Integrations</strong><br><br>
+      <img src="assets/business-systems.svg" alt="ERP and CRM" height="40"><br><br>
+      <sub>ERP · CRM · API integrations</sub>
+    </td>
+    <td align="center" valign="top" width="310">
+      <strong>Embedded Prototyping</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=arduino&amp;theme=dark" alt="Arduino" height="40"><br><br>
+      <sub>Arduino</sub>
     </td>
   </tr>
 </table>
 
-<!-- Adicione aqui os projetos públicos que quiser destacar. -->
-
 ---
 
-## Contribuições
+## Contributions
 
 <p align="center">
-  <a href="https://github.com/BotelhoCodes#contribution-graph"><img src="assets/contribution-snake.svg" width="1080" alt="Animação do calendário de contribuições de BotelhoCodes"></a>
+  <a href="https://github.com/BotelhoCodes#contribution-graph"><img src="assets/contribution-snake.svg" width="1080" alt="Animated GitHub contribution graph for BotelhoCodes"></a>
 </p>
