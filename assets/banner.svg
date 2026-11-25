@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="336" viewBox="0 0 1080 336" role="img" aria-labelledby="title desc">
+  <title id="title">Matheus Botelho</title>
+  <desc id="desc">Desenvolvedor Full Stack Pleno e Analista de Dados</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#111821"/>
+      <stop offset="1" stop-color="#122831"/>
+    </linearGradient>
+    <linearGradient id="accent">
+      <stop stop-color="#7ce7d4"/>
+      <stop offset="1" stop-color="#8cb6fe"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#a1c7d8" opacity=".2"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1080" height="336" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1080" height="336" fill="url(#background)"/>
+    <path d="M680 0H1080V336H560Z" fill="#182d39"/>
+    <path d="M680 0H1080V336H560Z" fill="url(#dots)"/>
+    <path d="M680 0 560 336" stroke="#9bc9d9" stroke-opacity=".16"/>
+    <rect x="1" y="1" width="1078" height="334" rx="21" fill="none" stroke="#425868"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M706 225H758L792 189H845L885 143H945L986 103H1022" stroke="#375363" stroke-width="2"/>
+      <path d="M706 256H775L815 216H866L909 177H964L1003 138H1038" stroke="#375363" stroke-width="2"/>
+      <path d="M706 199H758L795 159H840L880 117H933L975 75H1022" stroke="url(#accent)" stroke-width="4"/>
+    </g>
+    <g fill="#142a33" stroke-width="3">
+      <circle cx="706" cy="199" r="7" stroke="#7ce7d4"/>
+      <circle cx="795" cy="159" r="7" stroke="#80ddd8"/>
+      <circle cx="880" cy="117" r="7" stroke="#84cfe4"/>
+      <circle cx="975" cy="75" r="7" stroke="#88bcf6"/>
+      <circle cx="1022" cy="75" r="7" stroke="#8cb6fe"/>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="63" y="89" fill="#8ee9da" font-family="Consolas, monospace" font-size="22">@BotelhoCodes</text>
+      <text x="58" y="169" fill="#f4f8fb" font-size="72" font-weight="700" letter-spacing="-2.5">Matheus Botelho</text>
+      <text x="63" y="222" fill="#b6cbd7" font-size="27">Full Stack Pleno e Analista de Dados</text>
+      <rect x="63" y="262" width="96" height="4" rx="2" fill="url(#accent)"/>
+    </g>
+  </g>
+</svg>
