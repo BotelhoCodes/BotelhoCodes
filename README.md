@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/linkedin-card.svg" width="350" alt="LinkedIn de Matheus Botelho"></a>
-  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/github-card.svg" width="350" alt="Repositórios de BotelhoCodes no GitHub"></a>
+  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/linkedin-card.svg" width="47%" alt="LinkedIn de Matheus Botelho"></a>
+  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/github-card.svg" width="47%" alt="Repositórios de BotelhoCodes no GitHub"></a>
 </p>
 
 ---
