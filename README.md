@@ -3,9 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/contact-linkedin.svg" width="31.5%" alt="Matheus Botelho on LinkedIn"></a>
-  <a href="https://www.instagram.com/matheusbotelho.eng/"><img src="assets/instagram-card.svg" width="31.5%" alt="Matheus Botelho on Instagram"></a>
-  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/contact-github.svg" width="31.5%" alt="BotelhoCodes repositories on GitHub"></a>
+  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/contact-linkedin.svg" width="47%" alt="Matheus Botelho on LinkedIn"></a>
+  <a href="https://www.instagram.com/matheusbotelho.eng/"><img src="assets/instagram-card.svg" width="47%" alt="Matheus Botelho on Instagram"></a>
+  <br>
+  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/contact-github.svg" width="47%" alt="BotelhoCodes repositories on GitHub"></a>
+  <a href="https://wa.me/5577991414000"><img src="assets/whatsapp-card.svg" width="47%" alt="WhatsApp: +55 77 99141-4000"></a>
 </p>
 
 ---
@@ -88,7 +90,12 @@ I'm a mid-level full-stack developer and data analyst based in Vitória da Conqu
     <td align="center" valign="top" width="310">
       <strong>AI &amp; Coding Tools</strong><br><br>
       <img src="https://cdn.simpleicons.org/claude/E19478" alt="Claude and Claude Code" height="36">
-      <img src="assets/openai-codex-icons.svg" alt="OpenAI and Codex" height="40"><br><br>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg">
+        <img src="https://raw.githubusercontent.com/DannyBaanks/chatgpt-http-mcp/main/assets/openai-white-monoblossom.png" width="40" height="40" alt="OpenAI Blossom">
+      </picture>
+      <img src="https://raw.githubusercontent.com/backnotprop/orchestrator/main/assets/providers/codex-icon-light.png" width="40" height="40" alt="Codex desktop app icon">
+      <!-- OpenAI Blossom and Codex desktop app icon are OpenAI brand assets. --><br><br>
       <sub>Claude · Claude Code · OpenAI · Codex</sub>
     </td>
   </tr>
@@ -100,8 +107,9 @@ I'm a mid-level full-stack developer and data analyst based in Vitória da Conqu
     </td>
     <td align="center" valign="top" width="310">
       <strong>Embedded Prototyping</strong><br><br>
-      <img src="https://skillicons.dev/icons?i=arduino&amp;theme=dark" alt="Arduino" height="40"><br><br>
-      <sub>Arduino</sub>
+      <img src="https://skillicons.dev/icons?i=arduino&amp;theme=dark" alt="Arduino" height="40">
+      <img src="assets/esp32-icon.svg" width="40" height="40" alt="ESP32"><br><br>
+      <sub>Arduino · ESP32</sub>
     </td>
   </tr>
 </table>
