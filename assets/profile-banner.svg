@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="320" viewBox="0 0 1080 320" role="img" aria-labelledby="title description">
+  <title id="title">Matheus Botelho · @BotelhoCodes</title>
+  <desc id="description">Mid-Level Full-Stack Developer and Data Analyst</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#090e1b"/><stop offset="1" stop-color="#181f39"/>
+    </linearGradient>
+    <linearGradient id="signal">
+      <stop stop-color="#65e7d3"/><stop offset=".55" stop-color="#70b6ff"/><stop offset="1" stop-color="#ba89fc"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#7864db" stop-opacity=".37"/><stop offset="1" stop-color="#7864db" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9cb0ec" stroke-opacity=".13"/>
+    </pattern>
+    <clipPath id="edge"><rect width="1080" height="320" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#edge)">
+    <rect width="1080" height="320" fill="url(#background)"/>
+    <ellipse cx="936" cy="153" rx="410" ry="286" fill="url(#glow)"/>
+    <path d="M654 0H1080V320H552Z" fill="url(#grid)"/>
+    <rect x="1" y="1" width="1078" height="318" rx="19" fill="none" stroke="#405079"/>
+    <path d="M41 67V39H76M1005 281H1039V253" fill="none" stroke="#547092" stroke-width="1.5"/>
+    <g transform="translate(824 161)" fill="none">
+      <circle r="112" stroke="#88a0e1" opacity=".28"/>
+      <circle r="82" stroke="#88a0e1" opacity=".22" stroke-dasharray="3 6"/>
+      <circle r="48" fill="#122336" stroke="#70c9db" stroke-opacity=".65"/>
+      <path d="m-17 -13 -14 13 14 13m34 -26 14 13 -14 13m-10 -27 -14 28" stroke="#a9f4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse rx="144" ry="55" transform="rotate(-22)" stroke="#858cf7" opacity=".45"/>
+      <g>
+        <circle cx="112" r="6.5" fill="#83eade"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+      </g>
+      <circle cx="-85" cy="72" r="4" fill="#b695ff"/>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="64" y="90" font-family="Consolas, monospace" font-size="22" letter-spacing="1.5" fill="#96eadd">@BotelhoCodes</text>
+      <text x="60" y="165" font-size="72" letter-spacing="-2.6" font-weight="700" fill="#f7f7ff">Matheus Botelho</text>
+      <rect x="64" y="184" width="384" height="3.5" rx="1.75" fill="url(#signal)"/>
+      <text x="64" y="224" font-size="25" fill="#d7def4">Mid-Level Full-Stack Developer &amp; Data Analyst</text>
+      <text x="65" y="263" font-family="Consolas, monospace" font-size="19" fill="#a1b1d5">APIs · AUTOMATION · INTEGRATIONS</text>
+    </g>
+  </g>
+</svg>
