@@ -1,40 +1,70 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Matheus Botelho, Desenvolvedor Full Stack Pleno e Analista de Dados" width="1080">
+  <img src="assets/banner.svg" width="1080" alt="Matheus Botelho, Desenvolvedor Full Stack Pleno e Analista de Dados">
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="https://img.shields.io/badge/LinkedIn-Matheus%20Botelho-176579?style=for-the-badge" alt="LinkedIn de Matheus Botelho"></a>
-  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Reposit%C3%B3rios-263b54?style=for-the-badge" alt="Repositórios de BotelhoCodes"></a>
+  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/linkedin-card.svg" width="350" alt="LinkedIn de Matheus Botelho"></a>
+  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/github-card.svg" width="350" alt="Repositórios de BotelhoCodes no GitHub"></a>
 </p>
+
+---
 
 ## Sobre mim
 
-Sou desenvolvedor full stack pleno e analista de dados em Vitória da Conquista, BA. Meu foco é desenvolver APIs, integrar sistemas e automatizar processos que envolvem dados.
+Sou de Vitória da Conquista, BA, e atuo no desenvolvimento full stack e na análise de dados. Combino essas duas frentes para conectar sistemas, automatizar processos e facilitar o uso dos dados no dia a dia.
 
-## Áreas de atuação
+## O que eu faço
 
-| Desenvolvimento full stack | Análise de dados |
-| --- | --- |
-| APIs e integrações entre sistemas com TypeScript, Node.js e NestJS. | Consultas, análise e automação com Python, SQL e PostgreSQL. |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Desenvolvimento full stack</strong><br>
+      Desenvolvimento de aplicações web e da lógica que conecta as interfaces aos serviços.
+    </td>
+    <td width="50%" valign="top">
+      <strong>APIs e integrações</strong><br>
+      Desenvolvimento de APIs e troca de informações entre sistemas com TypeScript, Node.js e NestJS.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Análise de dados</strong><br>
+      Consultas e análise com SQL, PostgreSQL e Python.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Automação de processos</strong><br>
+      Uso de scripts, APIs e dados para reduzir tarefas manuais recorrentes.
+    </td>
+  </tr>
+</table>
 
-## Tecnologias
+---
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-195bb0?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Node.js-356d2c?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/NestJS-a81842?style=for-the-badge&amp;logo=nestjs&amp;logoColor=white" alt="NestJS">
-  <img src="https://img.shields.io/badge/Python-295880?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/SQL-35465e?style=for-the-badge" alt="SQL">
-  <img src="https://img.shields.io/badge/PostgreSQL-285880?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL">
-</p>
+## Tech Stack
 
-<!--
-Quando tiver um repositório público para destacar, adicione aqui uma seção
-“Projetos” com o link, o problema resolvido e sua contribuição no projeto.
--->
+<table align="center">
+  <tr>
+    <td align="center" width="310">
+      <strong>Backend e APIs</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs&amp;theme=dark" height="48" alt="TypeScript, Node.js e NestJS"><br><br>
+      <sub>TypeScript · Node.js · NestJS</sub>
+    </td>
+    <td align="center" width="310">
+      <strong>Dados e automação</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=py&amp;theme=dark" width="48" height="48" alt="Python">
+      <img src="assets/sql-icon.svg" width="48" height="48" alt="SQL">
+      <img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" width="48" height="48" alt="PostgreSQL"><br><br>
+      <sub>Python · SQL · PostgreSQL</sub>
+    </td>
+  </tr>
+</table>
+
+<!-- Adicione aqui os projetos públicos que quiser destacar. -->
+
+---
 
 ## Contribuições
 
 <p align="center">
-  <a href="https://github.com/BotelhoCodes#contribution-graph"><img src="assets/contribution-snake.svg" alt="Animação do calendário de contribuições de BotelhoCodes" width="1080"></a>
+  <a href="https://github.com/BotelhoCodes#contribution-graph"><img src="assets/contribution-snake.svg" width="1080" alt="Animação do calendário de contribuições de BotelhoCodes"></a>
 </p>
