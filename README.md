@@ -88,7 +88,7 @@ I'm a mid-level full-stack developer and data analyst based in Vitória da Conqu
     <td align="center" valign="top" width="310">
       <strong>AI &amp; Coding Tools</strong><br><br>
       <img src="https://cdn.simpleicons.org/claude/E19478" alt="Claude and Claude Code" height="36">
-      <img src="https://cdn.simpleicons.org/openai/83EADC" alt="OpenAI and Codex" height="36"><br><br>
+      <img src="assets/openai-codex-icons.svg" alt="OpenAI and Codex" height="40"><br><br>
       <sub>Claude · Claude Code · OpenAI · Codex</sub>
     </td>
   </tr>
