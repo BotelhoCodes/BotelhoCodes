@@ -1,43 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="336" viewBox="0 0 1080 336" role="img" aria-labelledby="title desc">
-  <title id="title">Matheus Botelho</title>
-  <desc id="desc">Desenvolvedor Full Stack Pleno e Analista de Dados</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="320" viewBox="0 0 1080 320" role="img" aria-labelledby="title description">
+  <title id="title">Matheus Botelho · @BotelhoCodes</title>
+  <desc id="description">Desenvolvedor Full Stack Pleno e Analista de Dados</desc>
   <defs>
-    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
-      <stop stop-color="#111821"/>
-      <stop offset="1" stop-color="#122831"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#090e1b"/><stop offset="1" stop-color="#181f39"/>
     </linearGradient>
-    <linearGradient id="accent">
-      <stop stop-color="#7ce7d4"/>
-      <stop offset="1" stop-color="#8cb6fe"/>
+    <linearGradient id="signal">
+      <stop stop-color="#65e7d3"/><stop offset=".55" stop-color="#70b6ff"/><stop offset="1" stop-color="#ba89fc"/>
     </linearGradient>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#a1c7d8" opacity=".2"/>
+    <radialGradient id="glow">
+      <stop stop-color="#7864db" stop-opacity=".37"/><stop offset="1" stop-color="#7864db" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9cb0ec" stroke-opacity=".13"/>
     </pattern>
-    <clipPath id="frame"><rect width="1080" height="336" rx="22"/></clipPath>
+    <clipPath id="edge"><rect width="1080" height="320" rx="20"/></clipPath>
   </defs>
-  <g clip-path="url(#frame)">
-    <rect width="1080" height="336" fill="url(#background)"/>
-    <path d="M680 0H1080V336H560Z" fill="#182d39"/>
-    <path d="M680 0H1080V336H560Z" fill="url(#dots)"/>
-    <path d="M680 0 560 336" stroke="#9bc9d9" stroke-opacity=".16"/>
-    <rect x="1" y="1" width="1078" height="334" rx="21" fill="none" stroke="#425868"/>
-    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M706 225H758L792 189H845L885 143H945L986 103H1022" stroke="#375363" stroke-width="2"/>
-      <path d="M706 256H775L815 216H866L909 177H964L1003 138H1038" stroke="#375363" stroke-width="2"/>
-      <path d="M706 199H758L795 159H840L880 117H933L975 75H1022" stroke="url(#accent)" stroke-width="4"/>
-    </g>
-    <g fill="#142a33" stroke-width="3">
-      <circle cx="706" cy="199" r="7" stroke="#7ce7d4"/>
-      <circle cx="795" cy="159" r="7" stroke="#80ddd8"/>
-      <circle cx="880" cy="117" r="7" stroke="#84cfe4"/>
-      <circle cx="975" cy="75" r="7" stroke="#88bcf6"/>
-      <circle cx="1022" cy="75" r="7" stroke="#8cb6fe"/>
+  <g clip-path="url(#edge)">
+    <rect width="1080" height="320" fill="url(#background)"/>
+    <ellipse cx="936" cy="153" rx="410" ry="286" fill="url(#glow)"/>
+    <path d="M654 0H1080V320H552Z" fill="url(#grid)"/>
+    <rect x="1" y="1" width="1078" height="318" rx="19" fill="none" stroke="#405079"/>
+    <path d="M41 67V39H76M1005 281H1039V253" fill="none" stroke="#547092" stroke-width="1.5"/>
+    <g transform="translate(824 161)" fill="none">
+      <circle r="112" stroke="#88a0e1" opacity=".28"/>
+      <circle r="82" stroke="#88a0e1" opacity=".22" stroke-dasharray="3 6"/>
+      <circle r="48" fill="#122336" stroke="#70c9db" stroke-opacity=".65"/>
+      <path d="m-17 -13 -14 13 14 13m34 -26 14 13 -14 13m-10 -27 -14 28" stroke="#a9f4ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse rx="144" ry="55" transform="rotate(-22)" stroke="#858cf7" opacity=".45"/>
+      <g>
+        <circle cx="112" r="6.5" fill="#83eade"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+      </g>
+      <circle cx="-85" cy="72" r="4" fill="#b695ff"/>
     </g>
     <g font-family="Segoe UI, Arial, sans-serif">
-      <text x="63" y="89" fill="#8ee9da" font-family="Consolas, monospace" font-size="22">@BotelhoCodes</text>
-      <text x="58" y="169" fill="#f4f8fb" font-size="72" font-weight="700" letter-spacing="-2.5">Matheus Botelho</text>
-      <text x="63" y="222" fill="#b6cbd7" font-size="27">Full Stack Pleno e Analista de Dados</text>
-      <rect x="63" y="262" width="96" height="4" rx="2" fill="url(#accent)"/>
+      <text x="64" y="90" font-family="Consolas, monospace" font-size="22" letter-spacing="1.5" fill="#96eadd">@BotelhoCodes</text>
+      <text x="60" y="165" font-size="72" letter-spacing="-2.6" font-weight="700" fill="#f7f7ff">Matheus Botelho</text>
+      <rect x="64" y="184" width="384" height="3.5" rx="1.75" fill="url(#signal)"/>
+      <text x="64" y="224" font-size="27" fill="#d7def4">Full Stack Pleno e Analista de Dados</text>
+      <text x="65" y="263" font-family="Consolas, monospace" font-size="19" fill="#a1b1d5">APIs · AUTOMAÇÃO · INTEGRAÇÕES</text>
     </g>
   </g>
 </svg>
