@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="402" height="82" viewBox="0 0 402 82" role="img" aria-label="LinkedIn">
-  <rect x="1" y="1" width="400" height="80" rx="13" fill="#11192b" stroke="#384968"/>
-  <path d="M15 19v44" stroke="#76e4d4" stroke-width="2" stroke-linecap="round"/>
-  <rect x="28" y="18" width="46" height="46" rx="10" fill="#1a2840" stroke="#405571"/>
-  <text x="51" y="50" fill="#76e4d4" font-family="Arial, sans-serif" font-size="26" text-anchor="middle" font-weight="700">in</text>
-  <text x="91" y="35" fill="#eef3ff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">LinkedIn</text>
-  <text x="91" y="57" fill="#76e4d4" font-family="Consolas, monospace" font-size="13">in/matheussilvabotelho</text>
-  <path d="M369 45l9-9m-7 0h7v7" fill="none" stroke="#a7b5d5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="88" viewBox="0 0 402 88" role="img" aria-label="LinkedIn">
+  <rect x="1" y="1" width="400" height="86" rx="13" fill="#11192b" stroke="#384968"/>
+  <path d="M15 20v48" stroke="#76e4d4" stroke-width="2" stroke-linecap="round"/>
+  <rect x="28" y="18" width="52" height="52" rx="11" fill="#1a2840" stroke="#405571"/>
+  <text x="54" y="55" fill="#76e4d4" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" font-weight="700">in</text>
+  <text x="97" y="39" fill="#eef3ff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">LinkedIn</text>
+  <text x="97" y="62" fill="#76e4d4" font-family="Consolas, monospace" font-size="16">in/matheussilvabotelho</text>
+  <path d="M368 48l10-10m-8 0h8v8" fill="none" stroke="#a7b5d5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
