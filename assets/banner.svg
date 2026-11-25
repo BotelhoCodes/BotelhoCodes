@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="320" viewBox="0 0 1080 320" role="img" aria-labelledby="title description">
   <title id="title">Matheus Botelho · @BotelhoCodes</title>
-  <desc id="description">Desenvolvedor Full Stack Pleno e Analista de Dados</desc>
+  <desc id="description">Mid-Level Full-Stack Developer and Data Analyst</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
       <stop stop-color="#090e1b"/><stop offset="1" stop-color="#181f39"/>
@@ -38,8 +38,8 @@
       <text x="64" y="90" font-family="Consolas, monospace" font-size="22" letter-spacing="1.5" fill="#96eadd">@BotelhoCodes</text>
       <text x="60" y="165" font-size="72" letter-spacing="-2.6" font-weight="700" fill="#f7f7ff">Matheus Botelho</text>
       <rect x="64" y="184" width="384" height="3.5" rx="1.75" fill="url(#signal)"/>
-      <text x="64" y="224" font-size="27" fill="#d7def4">Full Stack Pleno e Analista de Dados</text>
-      <text x="65" y="263" font-family="Consolas, monospace" font-size="19" fill="#a1b1d5">APIs · AUTOMAÇÃO · INTEGRAÇÕES</text>
+      <text x="64" y="224" font-size="25" fill="#d7def4">Mid-Level Full-Stack Developer &amp; Data Analyst</text>
+      <text x="65" y="263" font-family="Consolas, monospace" font-size="19" fill="#a1b1d5">APIs · AUTOMATION · INTEGRATIONS</text>
     </g>
   </g>
 </svg>
