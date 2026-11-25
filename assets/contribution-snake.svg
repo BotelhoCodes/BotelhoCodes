@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="125" viewBox="0 0 1080 125" role="img" aria-label="Animação disponível após a primeira execução do GitHub Actions">
+  <defs>
+    <pattern id="cells" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect x="1" y="1" width="12" height="12" rx="2" fill="#27424d"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1078" height="123" rx="16" fill="#15232c" stroke="#425868"/>
+  <rect x="674" y="22" width="368" height="80" fill="url(#cells)"/>
+  <text x="30" y="70" fill="#c0d8e4" font-family="Segoe UI, Arial, sans-serif" font-size="24">Animação disponível após a primeira execução</text>
+</svg>
