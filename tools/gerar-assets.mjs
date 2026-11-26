@@ -74,7 +74,7 @@ const txt = (fonte, s, x, y, tam, cor, { op = 1, track = 0, alinhar = 'esq' } = 
 const rot = (s, x, y, cor = COR.latao, tam = 15) => txt(MONO, s, x, y, tam, cor, { track: 0.04 });
 const painel = (h, corpo, titulo) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${h}" viewBox="0 0 ${W} ${h}" role="img" aria-labelledby="t">
   <title id="t">${titulo.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</title>
-  <rect x="1" y="1" width="${W - 2}" height="${h - 2}" rx="16" fill="${COR.onix}" stroke="${COR.latao}" stroke-opacity=".35" stroke-width="2"/>
+  <rect x="1" y="1" width="${W - 2}" height="${h - 2}" rx="16" fill="${COR.onix}" stroke="${COR.papiro}" stroke-opacity=".10" stroke-width="1.5"/>
   ${corpo}
 </svg>\n`;
 /* régua curta do cabeçalho de cada painel: marcas de 10 em 10, longa a cada 5 */
@@ -85,8 +85,6 @@ const regua = (x, y, w) => {
 };
 const cabecalho = (rotulo, titulo) => [
   rot(rotulo, 44, 58),
-  regua(44 + larg(MONO, rotulo, 15, 0.04) + 24, 58, 120),
-  `<circle cx="${W - 52}" cy="53" r="4" fill="${COR.sinal}"/>`,
   titulo ? txt(MANROPE, titulo, 44, 104, 34, COR.papiro) : '',
 ].join('\n  ');
 const gravar = (nome, conteudo) => {
@@ -112,9 +110,8 @@ const gravar = (nome, conteudo) => {
   const celulas = c.itens.map(([n, t, d], i) => {
     const x = 44 + (i % 2) * (cw + 20), y = y0 + Math.floor(i / 2) * (ch + 20);
     return [
-      `<rect x="${x}" y="${y}" width="${f(cw)}" height="${ch}" rx="10" fill="${COR.onix2}" stroke="${COR.linha}"/>`,
+      `<rect x="${x}" y="${y}" width="${f(cw)}" height="${ch}" rx="10" fill="${COR.onix2}"/>`,
       rot(n, x + 24, y + 38, COR.latao, 14),
-      `<line x1="${x + 24}" y1="${y + 50}" x2="${x + 48}" y2="${y + 50}" stroke="${COR.latao}" stroke-width="2"/>`,
       txt(MANROPE, t, x + 70, y + 40, 22, COR.papiro),
       ...d.map((l, j) => txt(MANROPE, l, x + 70, y + 74 + j * 26, 16.5, COR.papiro, { op: 0.72 })),
     ].join('');
@@ -132,7 +129,7 @@ const gravar = (nome, conteudo) => {
     let x = x0;
     const chips = itens.map((s) => {
       const w = larg(MONO, s, tam) + padX * 2;
-      const out = `<rect x="${f(x)}" y="${y}" width="${f(w)}" height="${altChip}" rx="6" fill="none" stroke="${COR.latao}" stroke-opacity=".5"/>` + txt(MONO, s, x + padX, y + 22.5, tam, COR.lataoClaro);
+      const out = `<rect x="${f(x)}" y="${y}" width="${f(w)}" height="${altChip}" rx="6" fill="${COR.onix2}"/>` + txt(MONO, s, x + padX, y + 22.5, tam, COR.papiro, { op: 0.82 });
       x += w + gap;
       if (x > W - 44) console.warn(`  ! linha "${cat}" passou da largura (${Math.round(x)} px)`);
       return out;
@@ -162,6 +159,32 @@ const gravar = (nome, conteudo) => {
     txt(MONO, '35°52′N 23°18′E', W - 44, 58, 14, COR.latao, { track: 0.04, alinhar: 'dir' }),
   ];
   gravar('readme-05-assinatura.svg', painel(100, corpo.join('\n  '), 'Matheus Botelho · do lógos ao código'));
+}
+
+/* ---------------------------------------------------------------- tema leve: banner em pátina, cards com borda discreta
+   latão só como acento (proporção da marca: 70 fundo · 20 texto · 8 latão · 2 sinal). Pode rodar de novo. */
+{
+  const ed = (arq, trocas) => {
+    const p = path.join(RAIZ, 'assets', arq);
+    let s = fs.readFileSync(p, 'utf8');
+    for (const [de, para] of trocas) s = s.split(de).join(para);
+    fs.writeFileSync(p, s);
+    console.log('✔ assets/' + arq + ' (tema leve)');
+  };
+  ed('github-banner-onix.svg', [
+    ['<rect width="1080" height="320" rx="16" fill="#16130F"/>', `<rect width="1080" height="320" rx="16" fill="${COR.patina}"/>`],
+    ['stroke="#C2903F" stroke-opacity=".42"', `stroke="${COR.papiro}" stroke-opacity=".10"`],
+    ['stroke="#3A3128"', 'stroke="#24564E"'],
+    ['stroke="#2C251E"', 'stroke="#1B4A43"'],
+    ['fill="url(#grega)" opacity=".82"', 'fill="url(#grega)" opacity=".45"'],
+  ]);
+  for (const c of ['linkedin', 'instagram', 'github', 'whatsapp']) {
+    ed(`github-card-${c}-latao.svg`, [
+      ['fill="#0F3B35" stroke="#C2903F" stroke-width="2"', `fill="${COR.onix}" stroke="${COR.papiro}" stroke-opacity=".12" stroke-width="1.5"`],
+      ['fill="#16130F" stroke="#C2903F" stroke-width="2"', `fill="${COR.onix}" stroke="${COR.papiro}" stroke-opacity=".12" stroke-width="1.5"`],
+      ['stroke="#C2903F" stroke-opacity=".55"', `stroke="${COR.latao}" stroke-opacity=".3"`],
+    ]);
+  }
 }
 
 /* ---------------------------------------------------------------- rótulo do banner (μβ / botelhocodes) */
