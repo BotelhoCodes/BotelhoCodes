@@ -1,16 +1,20 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" width="1080" alt="Matheus Botelho, Mid-Level Full-Stack Developer and Data Analyst">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-banner-polido.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-banner-onix.svg">
+    <img src="assets/github-banner-onix.svg" width="1080" alt="Matheus Botelho · do lógos ao código · IA, dados e automação">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/contact-linkedin.svg" width="47%" alt="Matheus Botelho on LinkedIn"></a>
-  <a href="https://www.instagram.com/matheusbotelho.eng/"><img src="assets/instagram-card.svg" width="47%" alt="Matheus Botelho on Instagram"></a>
+  <a href="https://www.linkedin.com/in/matheussilvabotelho"><img src="assets/github-card-linkedin-latao.svg" width="47%" alt="Matheus Botelho on LinkedIn"></a>
+  <a href="https://www.instagram.com/matheusbotelho.eng/"><img src="assets/github-card-instagram-latao.svg" width="47%" alt="Matheus Botelho on Instagram"></a>
   <br>
-  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/contact-github.svg" width="47%" alt="BotelhoCodes repositories on GitHub"></a>
-  <a href="https://wa.me/5577991414000"><img src="assets/whatsapp-card.svg" width="47%" alt="WhatsApp: +55 77 99141-4000"></a>
+  <a href="https://github.com/BotelhoCodes?tab=repositories"><img src="assets/github-card-github-latao.svg" width="47%" alt="BotelhoCodes repositories on GitHub"></a>
+  <a href="https://wa.me/5577991414000"><img src="assets/github-card-whatsapp-latao.svg" width="47%" alt="WhatsApp: +55 77 99141-4000"></a>
 </p>
 
----
+<p align="center"><img src="assets/regua-onix.svg" width="100%" alt=""></p>
 
 ## About Me
 
@@ -41,7 +45,7 @@ I'm a mid-level full-stack developer and data analyst based in Vitória da Conqu
   </tr>
 </table>
 
----
+<p align="center"><img src="assets/regua-onix.svg" width="100%" alt=""></p>
 
 ## Tech Stack
 
@@ -114,7 +118,7 @@ I'm a mid-level full-stack developer and data analyst based in Vitória da Conqu
   </tr>
 </table>
 
----
+<p align="center"><img src="assets/regua-onix.svg" width="100%" alt=""></p>
 
 ## Contributions
 
