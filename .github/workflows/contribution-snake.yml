@@ -29,8 +29,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/contribution-snake.svg?color_snake=%23C2903F&color_dots=%231E1A15,%233A3128,%236B5D4C,%23D5BC8E,%23E6DCC8&color_dot_border=%2316130F
-            assets/contribution-snake-light.svg?color_snake=%236B4E26&color_dots=%23EFE8DA,%23E6DCC8,%23D5BC8E,%23A8875A,%2316130F&color_dot_border=%23FFFFFF
+            assets/contribution-snake.svg?color_snake=%23E6DCC8&color_dots=%231E1A15,%231F3A34,%232F6B5E,%238DB5A5,%23E6DCC8&color_dot_border=%2316130F
+            assets/contribution-snake-light.svg?color_snake=%2316130F&color_dots=%23EFE8DA,%23C9D9D1,%238DB5A5,%232F6B5E,%230F3B35&color_dot_border=%23FFFFFF
 
       - name: Save the animation
         shell: bash

@@ -5,7 +5,7 @@
 <title>BotelhoCodes · peças do README</title>
 <!-- pecas.html?p=hero|pilares|stack|fim|c-linkedin|c-instagram|c-whatsapp
      Segue o manual da marca (MARCA/manual): blocos lisos, rótulo em Mono no topo,
-     Paleta do GitHub: polido, papiro e ônix em destaque; pátina só em detalhes (ponto, rótulo do λ).
+     Paleta do GitHub: papiro e ônix como base, moedas monocromáticas, pátina como destaque; sem latão nem polido.
      título em Manrope 500 com a segunda linha no acento, régua na base. Sem grega, sem mostrador, sem contorno dourado.
      Moeda só no topo e no rodapé da página.
      Corpos pensados para o celular: no app do GitHub a peça de 1080 px aparece com ~1/3 do tamanho,
@@ -16,7 +16,7 @@
 @font-face { font-family: 'JB Mono'; src: url('{{MARCA}}/05-tipografia/JetBrainsMono-Regular.ttf') format('truetype'); font-weight: 400; }
 :root {
   --polido:#D5BC8E; --onix:#16130F; --onix-2:#221D17; --patina:#0F3B35; --patina-2:#164A43;
-  --latao:#C2903F; --latao-claro:#D4A853; --bronze:#6B4E26; --sinal:#8DB5A5; --papiro:#E6DCC8;
+  --latao:#C2903F; --bronze:#6B4E26; --sinal:#8DB5A5; --papiro:#E6DCC8;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 html, body { background:transparent; overflow:hidden; }
@@ -24,31 +24,30 @@ body { font-family:'Manrope', sans-serif; font-weight:500; color:var(--papiro); 
 .peca { display:none; position:relative; }
 .mono { font-family:'JB Mono', monospace; font-weight:400; letter-spacing:.02em; }
 .cartao { position:relative; border-radius:16px; overflow:hidden; }
-.onix { background:var(--onix); color:var(--papiro); box-shadow:inset 0 0 0 1.5px rgba(230,220,200,.13); }
+/* base: papiro e ônix; pátina é a cor de destaque; latão e polido fora */
+.onix { background:var(--onix-2); color:var(--papiro); }
 .patina { background:var(--patina); color:var(--papiro); }
-.polido { background:var(--polido); color:var(--onix); }
 .papiro { background:var(--papiro); color:var(--onix); }
 .rot { font-family:'JB Mono', monospace; font-weight:400; font-size:21px; letter-spacing:.01em; }
-.patina .rot { color:var(--latao-claro); }
-.onix .rot { color:var(--latao); }
-.polido .rot { color:var(--bronze); }
+.onix .rot, .patina .rot { color:var(--sinal); }
 .papiro .rot { color:var(--patina); }
 .titulo { font-weight:500; letter-spacing:-.018em; line-height:1.1; }
-.patina .acento, .onix .acento { color:var(--latao-claro); }
-.polido .acento, .papiro .acento { color:var(--bronze); }
+.onix .acento, .patina .acento { color:var(--sinal); }
+.papiro .acento { color:var(--patina); }
 /* régua: marca curta a cada 12 px, longa a cada 60 px */
 .regua { position:absolute; left:28px; right:28px; bottom:24px; height:16px;
   background:
     repeating-linear-gradient(90deg, var(--r-longa) 0 2.5px, transparent 2.5px 60px) left bottom / 100% 16px no-repeat,
     repeating-linear-gradient(90deg, var(--r-curta) 0 2px, transparent 2px 12px) left bottom / 100% 8px no-repeat; }
-.patina .regua, .onix .regua { --r-longa:rgba(194,144,63,.75); --r-curta:rgba(194,144,63,.38); }
-.polido .regua, .papiro .regua { --r-longa:rgba(107,78,38,.8); --r-curta:rgba(107,78,38,.42); }
+.onix .regua { --r-longa:rgba(230,220,200,.42); --r-curta:rgba(230,220,200,.2); }
+.patina .regua { --r-longa:rgba(141,181,165,.7); --r-curta:rgba(141,181,165,.35); }
+.papiro .regua { --r-longa:rgba(22,19,15,.5); --r-curta:rgba(22,19,15,.24); }
 
 /* ------------------------------------------------ hero 1080×460 */
 #hero .cartao { width:1080px; height:460px; padding:46px 56px; }
-#hero .selo { display:inline-block; background:var(--onix); color:var(--polido); padding:8px 15px; border-radius:7px; font-size:22px; }
+#hero .selo { display:inline-block; background:var(--onix); color:var(--papiro); padding:8px 15px; border-radius:7px; font-size:22px; }
 #hero .titulo { font-size:72px; line-height:1.03; letter-spacing:-.024em; margin-top:34px; }
-#hero .texto { font-weight:400; font-size:28px; line-height:1.4; margin-top:20px; opacity:.82; }
+#hero .texto { font-weight:400; font-size:28px; line-height:1.4; margin-top:20px; opacity:.8; }
 #hero .moeda { position:absolute; right:60px; top:96px; width:196px; }
 #hero .vivo { position:absolute; left:56px; bottom:66px; font-size:22px; color:var(--onix); opacity:.85; }
 #hero .vivo b { color:var(--patina); font-weight:400; }
@@ -62,38 +61,38 @@ body { font-family:'Manrope', sans-serif; font-weight:500; color:var(--papiro); 
 /* ------------------------------------------------ stack 1080×612 */
 #stack .cartao { width:1080px; height:612px; padding:44px 48px; }
 #stack .grade { margin-top:30px; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); column-gap:48px; row-gap:30px; }
-#stack .cat { font-family:'JB Mono', monospace; font-size:21px; color:var(--latao); letter-spacing:.01em; }
+#stack .cat { font-family:'JB Mono', monospace; font-size:21px; color:var(--sinal); letter-spacing:.01em; }
 #stack .itens { font-weight:400; font-size:30px; line-height:1.32; margin-top:6px; }
-#stack .itens i { font-style:normal; color:var(--latao); opacity:.6; }
+#stack .itens i { font-style:normal; color:var(--papiro); opacity:.35; }
 
 /* ------------------------------------------------ contatos 532×128 (whatsapp 1080×128) */
 .contato .cartao { height:128px; display:flex; align-items:center; gap:22px; padding:0 30px 0 28px; border-radius:14px; }
 .contato svg { width:50px; height:50px; flex:none; }
-.contato .rot { font-size:20px; color:var(--latao); }
+.contato .rot { font-size:20px; color:var(--sinal); }
 .contato .valor { font-weight:500; font-size:30px; margin-top:2px; letter-spacing:-.01em; white-space:nowrap; }
-.contato .seta { margin-left:auto; font-family:'JB Mono', monospace; font-size:28px; color:var(--latao); }
+.contato .seta { margin-left:auto; font-family:'JB Mono', monospace; font-size:28px; color:var(--papiro); opacity:.55; }
 
 /* ------------------------------------------------ fim 1080×150 */
 #fim .cartao { width:1080px; height:150px; display:flex; align-items:center; justify-content:space-between; padding:0 48px; }
 #fim img { height:78px; }
-#fim .rot { font-size:20px; color:var(--bronze); text-align:right; line-height:1.6; }
+#fim .rot { font-size:20px; color:var(--patina); text-align:right; line-height:1.6; }
 </style>
 </head>
 <body>
 
 <section class="peca" id="hero">
-  <div class="cartao polido">
+  <div class="cartao papiro">
     <span class="rot selo">μβ / botelhocodes</span>
     <div class="titulo">Matheus Botelho<br><span class="acento">do lógos ao código.</span></div>
     <div class="texto">AI agents and automations for real businesses.</div>
     <div class="mono vivo"><b>●</b>&nbsp; open to talks, workshops and projects</div>
-    <img class="moeda" src="{{MARCA}}/01-logo/simbolo/moeda-radar.svg">
+    <img class="moeda" src="{{MARCA}}/01-logo/simbolo/moeda-mono-onix.svg">
     <div class="regua"></div>
   </div>
 </section>
 
 <section class="peca" id="pilares">
-  <div class="cartao polido">
+  <div class="cartao papiro">
     <span class="rot">Δ radar / news</span>
     <div class="titulo" style="top:116px">AI news,<br><span class="acento">no hype.</span></div>
     <div class="regua"></div>
@@ -103,9 +102,9 @@ body { font-family:'Manrope', sans-serif; font-weight:500; color:var(--papiro); 
     <div class="titulo" style="top:116px">Talks on<br><span class="acento">applied AI</span></div>
     <div class="regua"></div>
   </div>
-  <div class="cartao papiro">
+  <div class="cartao patina">
     <span class="rot">λ mao_na_massa / build</span>
-    <img class="espiral" src="{{MARCA}}/02-icone/espiral-onix.svg">
+    <img class="espiral" src="{{MARCA}}/02-icone/espiral-papiro.svg">
     <div class="titulo" style="top:220px">Agents and<br><span class="acento">automations</span></div>
     <div class="regua"></div>
   </div>
@@ -113,27 +112,27 @@ body { font-family:'Manrope', sans-serif; font-weight:500; color:var(--papiro); 
 
 <section class="peca" id="stack">
   <div class="cartao onix">
-    <span class="rot" style="color:var(--latao-claro); font-size:22px">λ stack / tools</span>
+    <span class="rot" style="font-size:22px">λ stack / tools</span>
     <div class="grade" id="grade"></div>
   </div>
 </section>
 
 <section class="peca contato" id="c-linkedin"><div class="cartao onix" style="width:532px">
-  <svg viewBox="0 0 36 36" fill="none" stroke="#C2903F" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13 11v11M13 6.5v.2m6.5 4.3v11m0-6.1c0-6.2 8-6 8 0V22"/></svg>
+  <svg viewBox="0 0 36 36" fill="none" stroke="#8DB5A5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13 11v11M13 6.5v.2m6.5 4.3v11m0-6.1c0-6.2 8-6 8 0V22"/></svg>
   <div><div class="rot">linkedin</div><div class="valor">in/matheussilvabotelho</div></div><span class="seta">↗</span>
 </div></section>
 <section class="peca contato" id="c-instagram"><div class="cartao onix" style="width:532px">
-  <svg viewBox="0 0 36 36" fill="none" stroke="#C2903F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="5" width="22" height="22" rx="6"/><circle cx="18" cy="16" r="5.1"/><path d="M25 9.4h.02" stroke-width="2.8"/></svg>
+  <svg viewBox="0 0 36 36" fill="none" stroke="#8DB5A5" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="5" width="22" height="22" rx="6"/><circle cx="18" cy="16" r="5.1"/><path d="M25 9.4h.02" stroke-width="2.8"/></svg>
   <div><div class="rot">instagram</div><div class="valor">@matheusbotelho.eng</div></div><span class="seta">↗</span>
 </div></section>
 <section class="peca contato" id="c-whatsapp"><div class="cartao onix" style="width:1080px">
-  <svg viewBox="0 0 36 36" fill="none" stroke="#C2903F" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" color="#C2903F"><path d="M10 26l1.5-4a10.6 10.6 0 1 1 4 4L10 27z"/><path d="M15 12.5c-1.1.8.1 3.5 1.8 5.2 1.7 1.7 4.4 3 5.2 1.9.4-.5.3-1.1-.1-1.5l-1.6-1c-.3-.2-.7 0-.9.2l-.4.4a7.7 7.7 0 0 1-2.7-2.7l.4-.4c.3-.2.4-.6.2-.9l-.9-1.5c-.3-.4-.7-.5-1-.2z" fill="currentColor" stroke="none"/></svg>
+  <svg viewBox="0 0 36 36" fill="none" stroke="#8DB5A5" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" color="#8DB5A5"><path d="M10 26l1.5-4a10.6 10.6 0 1 1 4 4L10 27z"/><path d="M15 12.5c-1.1.8.1 3.5 1.8 5.2 1.7 1.7 4.4 3 5.2 1.9.4-.5.3-1.1-.1-1.5l-1.6-1c-.3-.2-.7 0-.9.2l-.4.4a7.7 7.7 0 0 1-2.7-2.7l.4-.4c.3-.2.4-.6.2-.9l-.9-1.5c-.3-.4-.7-.5-1-.2z" fill="currentColor" stroke="none"/></svg>
   <div><div class="rot">whatsapp · talks, workshops and projects</div><div class="valor">+55 77 99141-4000</div></div><span class="seta">↗</span>
 </div></section>
 
 <section class="peca" id="fim">
-  <div class="cartao polido">
-    <img src="{{MARCA}}/01-logo/assinatura/horizontal-radar.svg">
+  <div class="cartao papiro">
+    <img src="{{MARCA}}/01-logo/assinatura/horizontal-mono-onix.svg">
     <div class="rot"><span style="color:var(--patina)">●</span> 35°52′N 23°18′E<br>vitória da conquista, br</div>
   </div>
 </section>
