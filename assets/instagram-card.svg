@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="402" height="88" viewBox="0 0 402 88" role="img" aria-label="Instagram">
-  <rect x="1" y="1" width="400" height="86" rx="13" fill="#11192b" stroke="#384968"/>
-  <path d="M15 20v48" stroke="#f8a3ca" stroke-width="2" stroke-linecap="round"/>
-  <rect x="28" y="18" width="52" height="52" rx="11" fill="#1a2840" stroke="#405571"/>
-  <g fill="none" stroke="#f8a3ca" stroke-width="2.7"><rect x="39" y="29" width="30" height="30" rx="8"/><circle cx="54" cy="44" r="6.5"/></g><circle cx="62" cy="36" r="1.9" fill="#f8a3ca"/>
-  <text x="97" y="39" fill="#eef3ff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">Instagram</text>
-  <text x="97" y="62" fill="#f8a3ca" font-family="Consolas, monospace" font-size="16">@matheusbotelho.eng</text>
-  <path d="M368 48l10-10m-8 0h8v8" fill="none" stroke="#a7b5d5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
