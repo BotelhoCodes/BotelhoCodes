@@ -29,12 +29,13 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/contribution-snake.svg?color_snake=%23D4A853&color_dots=%23221D17,%23164A43,%232A5E55,%238DB5A5,%23D4A853&color_dot_border=%2316130F
+            assets/contribution-snake.svg?color_snake=%23C2903F&color_dots=%231E1A15,%233A3128,%236B5D4C,%23D5BC8E,%23E6DCC8&color_dot_border=%2316130F
+            assets/contribution-snake-light.svg?color_snake=%236B4E26&color_dots=%23EFE8DA,%23E6DCC8,%23D5BC8E,%23A8875A,%2316130F&color_dot_border=%23FFFFFF
 
       - name: Save the animation
         shell: bash
         run: |
-          git add -- assets/contribution-snake.svg
+          git add -- assets/contribution-snake.svg assets/contribution-snake-light.svg
           if git diff --cached --quiet; then
             exit 0
           fi

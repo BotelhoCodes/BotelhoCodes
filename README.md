@@ -17,7 +17,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/BotelhoCodes#contribution-graph"><img src="assets/contribution-snake.svg" width="100%" alt="Animated GitHub contribution graph for BotelhoCodes"></a>
+  <a href="https://github.com/BotelhoCodes#contribution-graph">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="assets/contribution-snake-light.svg">
+      <img src="assets/contribution-snake.svg" width="100%" alt="Animated GitHub contribution graph for BotelhoCodes">
+    </picture>
+  </a>
 </p>
 
 <p align="center">
