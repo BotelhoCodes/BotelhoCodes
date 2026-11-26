@@ -2,6 +2,9 @@ name: Update contribution animation
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/contribution-snake.yml]
   schedule:
     - cron: '23 7 * * *'
 
@@ -26,7 +29,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/contribution-snake.svg?palette=github-dark&color_snake=%237ce7d4
+            assets/contribution-snake.svg?color_snake=%23D4A853&color_dots=%231F1A15,%233A2F1F,%236B4E26,%23A87A35,%23D4A853&color_dot_border=%2316130F
 
       - name: Save the animation
         shell: bash
