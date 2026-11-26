@@ -13,14 +13,13 @@ const MARCA = path.resolve(arg('marca', path.join(RAIZ, '..', '..', 'Matheus', '
 const EDGE = arg('edge', 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe');
 
 const PECAS = [
-  ['hero', 1080, 400],
-  ['pilares', 1080, 440],
-  ['stack', 1080, 432],
-  ['fim', 1080, 132],
-  ['c-linkedin', 532, 104],
-  ['c-instagram', 532, 104],
-  ['c-github', 532, 104],
-  ['c-whatsapp', 532, 104],
+  ['hero', 1080, 460],
+  ['pilares', 1080, 400],
+  ['stack', 1080, 612],
+  ['fim', 1080, 150],
+  ['c-linkedin', 532, 128],
+  ['c-instagram', 532, 128],
+  ['c-whatsapp', 1080, 128],
 ];
 
 if (!fs.existsSync(path.join(MARCA, '01-logo'))) throw new Error('Pacote da marca não encontrado em ' + MARCA + ' (use --marca=...)');
